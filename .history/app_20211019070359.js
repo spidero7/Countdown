@@ -49,8 +49,5 @@ const futureTime = futureDate.getTime();
 console.log(futureTime);
 
 function getRemainingTime() {
-  const today = new Date().getTime();
-  console.log(today);
+  const today = new Date().get
 }
-
-getRemainingTime();

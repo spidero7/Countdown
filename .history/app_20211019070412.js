@@ -53,4 +53,3 @@ function getRemainingTime() {
   console.log(today);
 }
 
-getRemainingTime();

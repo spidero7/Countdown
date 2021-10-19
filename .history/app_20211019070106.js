@@ -45,12 +45,4 @@ const weekday = weekdays[futureDate.getDay()];
 giveaway.textContent = `giveaway end on ${weekday}, ${date} ${month} ${year} ${hours}:${minutes}pm`;
 
 // Future time in ms
-const futureTime = futureDate.getTime();
-console.log(futureTime);
-
-function getRemainingTime() {
-  const today = new Date().getTime();
-  console.log(today);
-}
-
-getRemainingTime();
+const future

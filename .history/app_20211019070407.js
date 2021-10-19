@@ -52,5 +52,3 @@ function getRemainingTime() {
   const today = new Date().getTime();
   console.log(today);
 }
-
-getRemainingTime();
