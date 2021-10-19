@@ -51,13 +51,6 @@ function getRemainingTime() {
   const today = new Date().getTime();
   const timeRemaining = futureTime - today;
   console.log(timeRemaining);
-  // 1s = 1000ms
-  // 1m = 60s
-  // 1hr = 60min
-  // 1d = 24h
-
-  // values in ms
-  
 }
 
 getRemainingTime();

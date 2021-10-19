@@ -57,7 +57,6 @@ function getRemainingTime() {
   // 1d = 24h
 
   // values in ms
-  
 }
 
 getRemainingTime();
