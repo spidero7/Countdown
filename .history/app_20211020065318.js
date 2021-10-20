@@ -50,6 +50,7 @@ const futureTime = futureDate.getTime();
 function getRemainingTime() {
   const today = new Date().getTime();
   const timeRemaining = futureTime - today;
+  console.log(timeRemaining);
   // 1s = 1000ms
   // 1m = 60s
   // 1hr = 60min
@@ -83,7 +84,5 @@ function getRemainingTime() {
     item.innerHTML = format(values[index]);
   });
 }
-// countdown
-let countdown = setInterval(getRemainingTime, 1000)
-
+//
 getRemainingTime();
