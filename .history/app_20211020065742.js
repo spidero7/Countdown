@@ -82,11 +82,7 @@ function getRemainingTime() {
   items.forEach(function(item, index) {
     item.innerHTML = format(values[index]);
   });
-  // clear countdown when we meet the deadline
-  if (timeRemaining < 0) {
-    clearInterval(countdown);
-    deadline.innerHTML = `<h4 class="expired">sorry, this giveway has expired</h4>`;
-  }
+  if
 }
 // countdown
 let countdown = setInterval(getRemainingTime, 1000)
