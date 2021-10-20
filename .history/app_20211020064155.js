@@ -62,7 +62,8 @@ function getRemainingTime() {
   const oneMinute = 60*1000; // how many miliseconds are in one minute
 
   // calcualte all values
-  let days = Math.floor(timeRemaining / oneDay);
+  let days = timeRemaining / oneDay;
+  days = Math.floor(days);
 
   let hours = Math.floor((timeRemaining % oneDay) / oneHour);
   
@@ -75,7 +76,7 @@ function getRemainingTime() {
 
   items.forEach(function(item, index) {
     item.innerHTML = values[index];
-  });
+  })
 }
 
 getRemainingTime();
