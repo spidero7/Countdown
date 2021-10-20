@@ -73,15 +73,10 @@ function getRemainingTime() {
   // set values array
   const values = [days, hours, minutes, seconds];
 
-  function format(item) {
-    if (item < 10) {
-      return (item = `0${item}`);
-    }
-    return item;
-  }
+  function format(item)
 
   items.forEach(function(item, index) {
-    item.innerHTML = format(values[index]);
+    item.innerHTML = values[index];
   });
 }
 

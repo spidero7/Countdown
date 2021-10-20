@@ -81,7 +81,7 @@ function getRemainingTime() {
   }
 
   items.forEach(function(item, index) {
-    item.innerHTML = format(values[index]);
+    item.innerHTML = values[index];
   });
 }
 
